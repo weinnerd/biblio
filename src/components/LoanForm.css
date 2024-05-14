@@ -1,0 +1,24 @@
+.loan-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .loan-form input,
+  .loan-form button {
+    margin: 5px 0;
+    padding: 8px;
+  }
+  
+  .loan-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .loan-form button:hover {
+    background-color: #45a049;
+  }
+  

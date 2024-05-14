@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #86ae88; /* A nice shade of green */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around; /* Updated for better spacing */
+    align-items: center;
+    height: 60px; /* Slightly taller for better visual */
+  }
+  
+  .navbar a {
+    color: white; /* Better contrast against the green background */
+    text-align: center;
+    padding: 20px 15px; /* Adjusted padding for a better feel */
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    background-color: #323d33; /* A darker shade of green for hover */
+  }
+  
+
+  

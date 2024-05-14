@@ -1,0 +1,28 @@
+.loan-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .loan-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Remove borders between items */
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .loan-list button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .loan-list button:hover {
+    background-color: darkred;
+  }
+  
